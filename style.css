@@ -1,0 +1,169 @@
+
+      
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(174, 191, 199);
+  font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#result {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+
+      
+label {
+        margin-right: 10px;
+      }
+
+.Credit{
+    background-color:#0A1623;
+    padding:5px;
+    color:#fff;
+}
+
+h4{
+    text-align: center;
+}
+
+span{
+    color: #00D665;
+}
+
+.inner-wrapper{
+    max-width: 1300px;
+    margin: 10% auto;
+    display: flex;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    
+}
+
+select {
+    width: 100%;
+    margin: 8px 0;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+   
+} 
+
+button{
+    background-color:#8a2be2;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.headerText{
+    color:#8a2be2;
+}
+
+
+button:hover {
+    background-color: #9755d4;
+  }
+
+  input[type=number] {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  #news a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+  }
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Side column */
+.side {
+  flex: 45%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 55%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 960px) {
+  .row {   
+    flex-direction: column;
+    font-family: Verdana, serif, Geneva, Tahoma;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .row {   
+    flex-direction: column;
+    font-family: Verdana, serif, Geneva, Tahoma;
+  }
+}
+
+
+@media screen and (max-width: 860px) {
+  .row {   
+    flex-direction: column;
+    font-family: Verdana, serif, Geneva, Tahoma;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .row {   
+    flex-direction: column;
+    font-family: Verdana, serif, Geneva, Tahoma;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+    font-family: Verdana, serif, Geneva, Tahoma;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {   
+    flex-direction: column;
+    font-family: Verdana, serif, Geneva, Tahoma;
+  }
+}

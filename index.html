@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cryptocurrency | Converter | News</title>
+<meta charset="UTF-8">
+<link rel="icon"  href="coinradar.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Coinradar live Cryptocurrency Converter and Crypto news App for Cryptocurrency Traders">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- credit -->
+<div class="Credit">
+  <h4><small>powered by</small> <span>Crypto</span>Compare | Newsapi | Designed by <span>Ebuka</span></h4>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row inner-wrapper">
+    
+  <div class="side">
+    <h2 class="headerText">CRYPTO CONVERTER</h2>
+
+    <div id="converter">
+        <!-- <h2>Crypto Converter</h2>  -->
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" min="1" step="0.01">
+        <select id="currencyPair">
+          <option value="BTC/NGN">BTC/NGN</option>
+          <option value="ETH/NGN">ETH/NGN</option>
+          <option value="LTC/NGN">LTC/NGN</option>
+          <option value="XRP/NGN">XRP/NGN</option>
+        </select>
+        <button id="convert">Convert</button>
+        <div id="result"></div>
+      </div>
+
+  </div>
+
+  <div class="main">
+    <h2 class="headerText">CRYTO NEWS</h2>
+    <div id="news">
+
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
