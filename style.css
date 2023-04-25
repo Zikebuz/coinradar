@@ -40,7 +40,8 @@ span{
     max-width: 1300px;
     margin: 10% auto;
     display: flex;
-    background-color: #fff;
+    border-radius: 5px;
+    background-color: #f2f2f2;
     padding: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
     
@@ -118,7 +119,7 @@ button:hover {
   flex: 55%;
   background-color: white;
   padding: 20px;
-  / * border-radius: 5px; */
+  border-radius: 5px;
 }
 
 

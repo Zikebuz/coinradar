@@ -1,6 +1,7 @@
 
 async function getNews() {
-  const apiUrl = `https://newsapi.org/v2/everything?q=cryptocurrency&apiKey=${'cd60e3bd52ef41bd862bb1584fb8e170'}`;
+  const apiKey = 'cd60e3bd52ef41bd862bb1584fb8e170';
+  const apiUrl = `https://newsapi.org/v2/everything?q=cryptocurrency&apiKey=${apiKey}`;
 
   try {
     const response = await fetch(apiUrl);
