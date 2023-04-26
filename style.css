@@ -26,6 +26,7 @@ label {
     background-color:#0A1623;
     padding:5px;
     color:#fff;
+    font-family: Verdana, serif, Geneva, Tahoma;
 }
 
 h4{
@@ -40,9 +41,7 @@ span{
     max-width: 1300px;
     margin: 10% auto;
     display: flex;
-    border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
     
 }
@@ -96,7 +95,7 @@ button:hover {
     font-weight: bold;
     text-decoration: none;
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, serif, Geneva, Tahoma;
     padding: 5px;
   }
 
@@ -110,14 +109,12 @@ button:hover {
 /* Side column */
 .side {
   flex: 45%;
-  background-color: #f1f1f1;
   padding: 20px;
 }
 
 /* Main column */
 .main {
   flex: 55%;
-  background-color: white;
   padding: 20px;
   border-radius: 5px;
 }
