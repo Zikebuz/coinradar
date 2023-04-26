@@ -41,7 +41,7 @@ span{
     max-width: 1300px;
     margin: 10% auto;
     display: flex;
-    background-color: #f1f1f1;
+    
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.5); */
     
 }
@@ -110,6 +110,7 @@ button:hover {
 .side {
   flex: 45%;
   padding: 20px;
+  background-color: #fff;
 }
 
 /* Main column */
@@ -117,6 +118,7 @@ button:hover {
   flex: 55%;
   padding: 20px;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 
