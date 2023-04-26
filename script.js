@@ -1,19 +1,20 @@
-
 async function getNews() {
-  const apiKey = 'cd60e3bd52ef41bd862bb1584fb8e170';
-  const apiUrl = `https://newsapi.org/v2/everything?q=cryptocurrency&apiKey=${apiKey}`;
+     const apiKey = '0kPfi_Iems-6i6sYwnFjv_ZeZGrez_pan1eJ3Et8JWA';
+     const apiUrl = 'https://api.newscatcherapi.com/v2/search?q=cryptocurrency&lang=en&sort_by=date&page=1&page_size=7';
+     const headers = new Headers();
+     headers.append('x-api-key', apiKey);
 
   try {
-    const response = await fetch(apiUrl);
+    const response = await fetch(apiUrl, { headers });
     const data = await response.json();
-    const articles = data.articles.slice(0, 7); // Get the first 10 articles
+    const articles = data.articles;
     const newsContainer = document.getElementById('news');
 
-    // Loop through the first 10 articles and create HTML elements to display them
+    // Loop through the articles and create HTML elements to display them
     for (let i = 0; i < articles.length; i++) {
       const article = articles[i];
       const title = article.title;
-      const url = article.url;
+      const url = article.link;
 
       // Create HTML elements to display the article
       const articleTitle = document.createElement('a');
@@ -23,7 +24,6 @@ async function getNews() {
 
       // Add the article to the news container
       newsContainer.appendChild(articleTitle);
-
     }
   } catch (error) {
     console.error(error);
@@ -32,7 +32,6 @@ async function getNews() {
 
 // Call the getNews() function when the page loads
 window.onload = getNews;
-
 
 
 const inputElement = document.getElementById("amount");
