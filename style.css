@@ -8,7 +8,7 @@ body {
   font-family: Arial;
   margin: 0;
   padding: 0;
-  background-color: rgb(174, 191, 199);
+  background-color:#0A1623;
   font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -41,8 +41,8 @@ span{
     max-width: 1300px;
     margin: 10% auto;
     display: flex;
-    background-color: #f2f2f2;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: #f1f1f1;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.5); */
     
 }
 
